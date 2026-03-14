@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "updatedAt": "2026-03-12",
+  "favorites": [
+    "web-pro",
+    "web-pre",
+    "cms-pro",
+    "growthbook"
+  ],
+  "targets": [
+    {
+      "id": "web-pro",
+      "product": "Web Ecommerce",
+      "productKey": "web-ecommerce",
+      "type": "web",
+      "env": "PRO",
+      "label": "Web Ecommerce PRO",
+      "switchUrl": "https://www.oysho.com/",
+      "urlPattern": "^https://www\\.oysho\\.com(?:/|$)",
+      "favorite": true,
+      "tags": [
+        "web",
+        "ecommerce",
+        "oysho",
+        "pro",
+        "produccion"
+      ]
+    },
+    {
+      "id": "web-stage",
+      "product": "Web Ecommerce",
+      "productKey": "web-ecommerce",
+      "type": "web",
+      "env": "STAGE",
+      "label": "Web Ecommerce STAGE",
+      "urlPattern": "^https://axinstgeccwps1-oysho\\.central\\.inditex\\.grp(?:/|$)",
+      "switchUrl": "https://axinstgeccwps1-oysho.central.inditex.grp/",
+       "favorite": true,
+      "tags": [
+        "web",
+        "ecommerce",
+        "oysho",
+        "stage"
+      ]
+    },
+    {
+      "id": "web-destest1",
+      "product": "Web Ecommerce",
+      "productKey": "web-ecommerce",
+      "type": "web",
+      "env": "DESTEST1",
+      "label": "Web Ecommerce DESTEST1",
+      "urlPattern": "^https://des-oyshoweb-test1-webecom\\.oy\\.apps\\.axdesecocp1\\.ecommerce\\.inditex\\.grp(?:/|$)",
+      "switchUrl": "https://des-oyshoweb-test1-webecom.oy.apps.axdesecocp1.ecommerce.inditex.grp/",
+      "favorite": false,
+      "tags": [
+        "web",
+        "ecommerce",
+        "oysho",
+        "destes1"
+      ]
+    },
+    {
+      "id": "web-destest2",
+      "product": "Web Ecommerce",
+      "productKey": "web-ecommerce",
+      "type": "web",
+      "env": "DESTEST2",
+      "label": "Web Ecommerce DESTEST2",
+      "urlPattern": "^https://des-oyshoweb-test2-webecom\\.oy\\.apps\\.axdesecocp1\\.ecommerce\\.inditex\\.grp(?:/|$)",
+      "switchUrl": "https://des-oyshoweb-test2-webecom.oy.apps.axdesecocp1.ecommerce.inditex.grp/",
+      "favorite": false,
+      "tags": [
+        "web",
+        "ecommerce",
+        "oysho",
+        "destes2"
+      ]
+    },
+    {
+      "id": "web-destest3",
+      "product": "Web Ecommerce",
+      "productKey": "web-ecommerce",
+      "type": "web",
+      "env": "DESTEST3",
+      "label": "Web Ecommerce DESTEST3",
+      "urlPattern": "^https://des-oyshoweb-test3-webecom\\.oy\\.apps\\.axdesecocp1\\.ecommerce\\.inditex\\.grp(?:/|$)",
+      "switchUrl": "https://des-oyshoweb-test3-webecom.oy.apps.axdesecocp1.ecommerce.inditex.grp/",
+      "favorite": false,
+      "tags": [
+        "web",
+        "ecommerce",
+        "oysho",
+        "destes3"
+      ]
+    },
+    {
+      "id": "web-destest4",
+      "product": "Web Ecommerce",
+      "productKey": "web-ecommerce",
+      "type": "web",
+      "env": "DESTEST4",
+      "label": "Web Ecommerce DESTEST4",
+      "urlPattern": "^https://des-oyshoweb-test4-webecom\\.oy\\.apps\\.axdesecocp1\\.ecommerce\\.inditex\\.grp(?:/|$)",
+      "switchUrl": "https://des-oyshoweb-test4-webecom.oy.apps.axdesecocp1.ecommerce.inditex.grp/",
+      "favorite": false,
+      "tags": [
+        "web",
+        "ecommerce",
+        "oysho",
+        "destes4"
+      ]
+    },
+    {
+      "id": "web-pre",
+      "product": "Web Ecommerce",
+      "productKey": "web-ecommerce",
+      "type": "web",
+      "env": "PRE",
+      "label": "Web Ecommerce PRE",
+      "switchUrl": "https://preint-oyshocom.inditex.com/",
+      "urlPattern": "^https://preint-oyshocom\\.inditex\\.com(?:/|$)",
+      "favorite": true,
+      "tags": [
+        "web",
+        "ecommerce",
+        "oysho",
+        "pre",
+        "preint"
+      ]
+    },
+    {
+      "id": "cms-pro",
+      "product": "CMS",
+      "productKey": "cms",
+      "type": "app",
+      "env": "PRO",
+      "label": "CMS PRO",
+      "switchUrl": "https://cmsmgspa-content-oy.axinocp1.central.inditex.grp/cmsmgspa",
+      "urlPattern": "^https://cmsmgspa-content-oy\\.axinocp1\\.central\\.inditex\\.grp/cmsmgspa(?:/|$)",
+      "favorite": true,
+      "tags": [
+        "cms",
+        "content",
+        "pro"
+      ]
+    },
+    {
+      "id": "growthbook",
+      "product": "Growthbook",
+      "productKey": "growthbook",
+      "type": "app",
+      "env": "PRO",
+      "label": "Growthbook",
+      "switchUrl": "https://features-ui.inditex.com/features",
+      "urlPattern": "^https://features-ui\\.inditex\\.com/features",
+      "favorite": true,
+      "tags": [
+        "features",
+        "flags",
+        "experiments"
+      ]
+    }
+  ]
+}
