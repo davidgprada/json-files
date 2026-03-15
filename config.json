@@ -3,9 +3,30 @@
   "updatedAt": "2026-03-12",
   "favorites": [
     "web-pro",
+    "web-stage",
+    "web-destest1",
+    "web-destest2",
+    "web-destest3",
+    "web-destest4",
     "web-pre",
     "cms-pro",
-    "growthbook"
+    "growthbook",
+    "mailjet-pro",
+    "gesticor-pro",
+    "iop-support-pro",
+    "jira-pro",
+    "citrix-pro",
+    "gema-pro",
+    "studio-imagen-pro",
+    "pacman-pro",
+    "gipi-pro",
+    "api-portal-pro",
+    "discman-pro",
+    "discman-pre",
+    "retool-pro",
+    "colabora-pro",
+    "amanda-portal-pro",
+    "coms-playloads-pre"
   ],
   "targets": [
     {
@@ -52,7 +73,7 @@
       "label": "Web Ecommerce DESTEST1",
       "urlPattern": "^https://des-oyshoweb-test1-webecom\\.oy\\.apps\\.axdesecocp1\\.ecommerce\\.inditex\\.grp(?:/|$)",
       "switchUrl": "https://des-oyshoweb-test1-webecom.oy.apps.axdesecocp1.ecommerce.inditex.grp/",
-      "favorite": false,
+      "favorite": true,
       "tags": [
         "web",
         "ecommerce",
@@ -69,7 +90,7 @@
       "label": "Web Ecommerce DESTEST2",
       "urlPattern": "^https://des-oyshoweb-test2-webecom\\.oy\\.apps\\.axdesecocp1\\.ecommerce\\.inditex\\.grp(?:/|$)",
       "switchUrl": "https://des-oyshoweb-test2-webecom.oy.apps.axdesecocp1.ecommerce.inditex.grp/",
-      "favorite": false,
+      "favorite": true,
       "tags": [
         "web",
         "ecommerce",
@@ -86,7 +107,7 @@
       "label": "Web Ecommerce DESTEST3",
       "urlPattern": "^https://des-oyshoweb-test3-webecom\\.oy\\.apps\\.axdesecocp1\\.ecommerce\\.inditex\\.grp(?:/|$)",
       "switchUrl": "https://des-oyshoweb-test3-webecom.oy.apps.axdesecocp1.ecommerce.inditex.grp/",
-      "favorite": false,
+      "favorite": true,
       "tags": [
         "web",
         "ecommerce",
@@ -103,7 +124,7 @@
       "label": "Web Ecommerce DESTEST4",
       "urlPattern": "^https://des-oyshoweb-test4-webecom\\.oy\\.apps\\.axdesecocp1\\.ecommerce\\.inditex\\.grp(?:/|$)",
       "switchUrl": "https://des-oyshoweb-test4-webecom.oy.apps.axdesecocp1.ecommerce.inditex.grp/",
-      "favorite": false,
+      "favorite": true,
       "tags": [
         "web",
         "ecommerce",
@@ -170,7 +191,7 @@
     "label": "Mailjet PRO",
     "switchUrl": "https://app.mailjet.com/signin",
     "urlPattern": "^https://app\\.mailjet\\.com/signin(?:/|$)",
-    "favorite": false,
+    "favorite": true,
     "tags": [
       "mails"
     ]
@@ -233,7 +254,7 @@
     "label": "Citrix PRO",
     "switchUrl": "https://workspace.inditex.com/Citrix/ITXStoreWeb/",
     "urlPattern": "^https://workspace\\.inditex\\.com/Citrix/ITXStoreWeb(?:/|$)",
-    "favorite": false,
+    "favorite": true,
     "tags": []
   },
   {
@@ -245,7 +266,7 @@
     "label": "Gema PRO",
     "switchUrl": "https://gema.oy.apps.axecocp1.ecommerce.inditex.grp/mecgemafkt-oy/web/jobs",
     "urlPattern": "^https://gema\\.oy\\.apps\\.axecocp1\\.ecommerce\\.inditex\\.grp/mecgemafkt-oy/web/jobs(?:/|$)",
-    "favorite": false,
+    "favorite": true,
     "tags": [
       "mps",
       "producto",
@@ -261,7 +282,7 @@
     "label": "Studio Imagen PRO",
     "switchUrl": "https://studioimg.inditex.com/users/sign_in",
     "urlPattern": "^https://studioimg\\.inditex\\.com/users/sign_in(?:/|$)",
-    "favorite": false,
+    "favorite": true,
     "tags": [
       "imagen",
       "producto",
@@ -393,7 +414,7 @@
     "label": "COMS Playloads PRE",
     "switchUrl": "https://communications.tools.inditex.com/app/searchv2/notificationByRecipientPage?_environment=preint",
     "urlPattern": "^https://communications\\.tools\\.inditex\\.com/app/searchv2/notificationByRecipientPage\\?_environment=preint$",
-    "favorite": false,
+    "favorite": true,
     "tags": [
       "mails",
       "notificaciones"
