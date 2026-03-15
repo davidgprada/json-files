@@ -160,6 +160,244 @@
         "flags",
         "experiments"
       ]
-    }
+    },
+    {
+    "id": "mailjet-pro",
+    "product": "Mailjet",
+    "productKey": "mailjet",
+    "type": "app",
+    "env": "PRO",
+    "label": "Mailjet PRO",
+    "switchUrl": "https://app.mailjet.com/signin",
+    "urlPattern": "^https://app\\.mailjet\\.com/signin(?:/|$)",
+    "favorite": false,
+    "tags": [
+      "mails"
+    ]
+  },
+  {
+    "id": "gesticor-pro",
+    "product": "Gesticor",
+    "productKey": "gesticor",
+    "type": "app",
+    "env": "PRO",
+    "label": "Gesticor PRO",
+    "switchUrl": "https://axinweb.central.inditex.grp/ECOMGesticomCorporativo/login.htm",
+    "urlPattern": "^https://axinweb\\.central\\.inditex\\.grp/ECOMGesticomCorporativo/login\\.htm(?:/|$)",
+    "favorite": true,
+    "tags": [
+      "producto",
+      "catalogo",
+      "pro"
+    ]
+  },
+  {
+    "id": "iop-support-pro",
+    "product": "IOP Support",
+    "productKey": "iop-support",
+    "type": "app",
+    "env": "PRO",
+    "label": "IOP Support PRO",
+    "switchUrl": "https://apps.inditex.com/iopsupport/web/home",
+    "urlPattern": "^https://apps\\.inditex\\.com/iopsupport/web/home(?:/|$)",
+    "favorite": true,
+    "tags": [
+      "incidencias",
+      "negocio",
+      "inditex"
+    ]
+  },
+  {
+    "id": "jira-pro",
+    "product": "Jira",
+    "productKey": "jira",
+    "type": "app",
+    "env": "PRO",
+    "label": "Jira PRO",
+    "switchUrl": "https://jira.inditex.com/jira/secure/Dashboard.jspa",
+    "urlPattern": "^https://jira\\.inditex\\.com/jira/secure/Dashboard\\.jspa(?:/|$)",
+    "favorite": true,
+    "tags": [
+      "incidencias",
+      "negocio",
+      "inditex",
+      "plataformas"
+    ]
+  },
+  {
+    "id": "citrix-pro",
+    "product": "Citrix",
+    "productKey": "citrix",
+    "type": "app",
+    "env": "PRO",
+    "label": "Citrix PRO",
+    "switchUrl": "https://workspace.inditex.com/Citrix/ITXStoreWeb/",
+    "urlPattern": "^https://workspace\\.inditex\\.com/Citrix/ITXStoreWeb(?:/|$)",
+    "favorite": false,
+    "tags": []
+  },
+  {
+    "id": "gema-pro",
+    "product": "Gema",
+    "productKey": "gema",
+    "type": "app",
+    "env": "PRO",
+    "label": "Gema PRO",
+    "switchUrl": "https://gema.oy.apps.axecocp1.ecommerce.inditex.grp/mecgemafkt-oy/web/jobs",
+    "urlPattern": "^https://gema\\.oy\\.apps\\.axecocp1\\.ecommerce\\.inditex\\.grp/mecgemafkt-oy/web/jobs(?:/|$)",
+    "favorite": false,
+    "tags": [
+      "mps",
+      "producto",
+      "catalogo"
+    ]
+  },
+  {
+    "id": "studio-imagen-pro",
+    "product": "Studio Imagen",
+    "productKey": "studio-imagen",
+    "type": "app",
+    "env": "PRO",
+    "label": "Studio Imagen PRO",
+    "switchUrl": "https://studioimg.inditex.com/users/sign_in",
+    "urlPattern": "^https://studioimg\\.inditex\\.com/users/sign_in(?:/|$)",
+    "favorite": false,
+    "tags": [
+      "imagen",
+      "producto",
+      "catalogo"
+    ]
+  },
+  {
+    "id": "pacman-pro",
+    "product": "Pacman",
+    "productKey": "pacman",
+    "type": "app",
+    "env": "PRO",
+    "label": "Pacman PRO",
+    "switchUrl": "https://spapcshell-productandcatalog-oy.axinocp1.central.inditex.grp/spapcshell/web/NORTH/Woman/home",
+    "urlPattern": "^https://spapcshell-productandcatalog-oy\\.axinocp1\\.central\\.inditex\\.grp/spapcshell/web/NORTH/Woman/home(?:/|$)",
+    "favorite": true,
+    "tags": [
+      "producto",
+      "catalogo"
+    ]
+  },
+  {
+    "id": "gipi-pro",
+    "product": "Gipi",
+    "productKey": "gipi",
+    "type": "app",
+    "env": "PRO",
+    "label": "Gipi PRO",
+    "switchUrl": "https://axinecappgipilb1.central.inditex.grp/GIPi/rest/util/login#searchOrders:open",
+    "urlPattern": "^https://axinecappgipilb1\\.central\\.inditex\\.grp/GIPi/rest/util/login(?:#.*|/|$)",
+    "favorite": true,
+    "tags": [
+      "atc",
+      "usuarios",
+      "pedidos"
+    ]
+  },
+  {
+    "id": "api-portal-pro",
+    "product": "API Portal",
+    "productKey": "api-portal",
+    "type": "app",
+    "env": "PRO",
+    "label": "API Portal PRO",
+    "switchUrl": "https://apps.inditex.com/apiportal/web/search",
+    "urlPattern": "^https://apps\\.inditex\\.com/apiportal/web/search(?:/|$)",
+    "favorite": true,
+    "tags": [
+      "api",
+      "documentacion"
+    ]
+  },
+  {
+    "id": "discman-pro",
+    "product": "Discman",
+    "productKey": "discman",
+    "type": "app",
+    "env": "PRO",
+    "label": "Discman PRO",
+    "switchUrl": "https://micdiscman-promotion-oy.axinocp1.central.inditex.grp/micdiscman/web/home",
+    "urlPattern": "^https://micdiscman-promotion-oy\\.axinocp1\\.central\\.inditex\\.grp/micdiscman/web/home(?:/|$)",
+    "favorite": true,
+    "tags": [
+      "promos"
+    ]
+  },
+  {
+    "id": "discman-pre",
+    "product": "Discman",
+    "productKey": "discman",
+    "type": "app",
+    "env": "PRE",
+    "label": "Discman PRE",
+    "switchUrl": "https://preint-micdiscman-promotion.oy.apps.axpreecocp2.ecommerce.inditex.grp/micdiscman-preint/web/home",
+    "urlPattern": "^https://preint-micdiscman-promotion\\.oy\\.apps\\.axpreecocp2\\.ecommerce\\.inditex\\.grp/micdiscman-preint/web/home(?:/|$)",
+    "favorite": true,
+    "tags": [
+      "promos"
+    ]
+  },
+  {
+    "id": "retool-pro",
+    "product": "Retool",
+    "productKey": "retool",
+    "type": "app",
+    "env": "PRO",
+    "label": "Retool PRO",
+    "switchUrl": "https://communications.tools.inditex.com/app/search/notificationByRecipientPage",
+    "urlPattern": "^https://communications\\.tools\\.inditex\\.com/app/search/notificationByRecipientPage(?:/|$)",
+    "favorite": true,
+    "tags": [
+      "mails"
+    ]
+  },
+  {
+    "id": "colabora-pro",
+    "product": "Colabora",
+    "productKey": "colabora",
+    "type": "app",
+    "env": "PRO",
+    "label": "Colabora PRO",
+    "switchUrl": "https://meccolaf-commerman-global.axinocp1.central.inditex.grp/meccolaf/web/oauth/redirect",
+    "urlPattern": "^https://meccolaf-commerman-global\\.axinocp1\\.central\\.inditex\\.grp/meccolaf/web/oauth/redirect(?:/|$)",
+    "favorite": true,
+    "tags": [
+      "rebajas"
+    ]
+  },
+  {
+    "id": "amanda-portal-pro",
+    "product": "Amanda Portal",
+    "productKey": "amanda-portal",
+    "type": "app",
+    "env": "PRO",
+    "label": "Amanda Portal PRO",
+    "switchUrl": "https://amanda.tools.inditex.com/app/amanda/assets",
+    "urlPattern": "^https://amanda\\.tools\\.inditex\\.com/app/amanda/assets(?:/|$)",
+    "favorite": true,
+    "tags": [
+      "imagen"
+    ]
+  },
+  {
+    "id": "coms-playloads-pre",
+    "product": "COMS Playloads",
+    "productKey": "coms-playloads",
+    "type": "app",
+    "env": "PRE",
+    "label": "COMS Playloads PRE",
+    "switchUrl": "https://communications.tools.inditex.com/app/searchv2/notificationByRecipientPage?_environment=preint",
+    "urlPattern": "^https://communications\\.tools\\.inditex\\.com/app/searchv2/notificationByRecipientPage\\?_environment=preint$",
+    "favorite": false,
+    "tags": [
+      "mails",
+      "notificaciones"
+    ]
+  }
   ]
 }
