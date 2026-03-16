@@ -163,7 +163,23 @@
       "tags": [
         "cms",
         "content",
-        "pro"
+        "configs"
+      ]
+    },
+    {
+      "id": "cms-pre",
+      "product": "CMS",
+      "productKey": "cms",
+      "type": "app",
+      "env": "PRE",
+      "label": "CMS PRE",
+      "switchUrl": "https://pre-cmsmgspa-content.oy.apps.axpreecocp2.ecommerce.inditex.grp/cmsmgspa",
+      "urlPattern": "^https://pre-cmsmgspa-content\\.oy\\.apps\\.axpreecocp2\\.ecommerce\\.inditex\\.grp/cmsmgspa(?:/|$)",
+      "favorite": true,
+      "tags": [
+        "cms",
+        "content",
+        "configs"
       ]
     },
     {
@@ -179,7 +195,8 @@
       "tags": [
         "features",
         "flags",
-        "experiments"
+        "experiments",
+        "configs"
       ]
     },
     {
